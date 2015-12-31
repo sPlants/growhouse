@@ -1,0 +1,23 @@
+Prerequsites:
+node, npm & mongodb
+
+
+-- install express 
+cmd: express --ejs flapper-news
+result: generates express folder structure.
+
+-- download what you have defined in packages.json:
+cmd: npm install
+result: install all packages in node_modules
+
+-- install mongoose:
+cmd: npm install --save mongoose
+prerequsites:
+	cmd: npm install --save kerberos mongodb
+	cmd: npm install -g node-gyp
+	The try: "cmd: npm install --save mongoose" again.
+
+-- create a folder for mongoose models:
+mkdir models
+
+

@@ -18,7 +18,7 @@ app.controller('MainCtrl', [
 '$scope',
 function($scope){
 
-  $scope.test = 'Hello world!';
+  $scope.test = 'Hello grow world!';
 
 //End MainCtrl
   }
